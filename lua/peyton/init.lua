@@ -1,5 +1,6 @@
 require("peyton.remap")
 require("peyton.lazy-nvim")
+require("peyton.set")
 
 
 -- telescope remapping
