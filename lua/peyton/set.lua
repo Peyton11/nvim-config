@@ -32,3 +32,8 @@ vim.opt.colorcolumn = "80"
 -- disable automatic comment after pressing enter
 vim.cmd([[autocmd FileType * set formatoptions-=ro]])
 
+-- soft line breaks
+vim.opt.number = true
+vim.opt.textwidth = 80 
+vim.opt.wrap = true
+vim.opt.linebreak = true
