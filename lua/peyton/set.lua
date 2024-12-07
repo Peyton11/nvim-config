@@ -34,6 +34,14 @@ vim.cmd([[autocmd FileType * set formatoptions-=ro]])
 
 -- soft line breaks
 vim.opt.number = true
-vim.opt.textwidth = 80 
+vim.opt.textwidth = 0
 vim.opt.wrap = true
 vim.opt.linebreak = true
+
+-- Enable spell check
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
+
+-- Set light mode for markdown-preview
+vim.g.mkdp_theme = 'light'
+
